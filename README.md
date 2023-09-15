@@ -1,1 +1,2 @@
 # E-mail_Spam_Filtering_ML-model
+Email spam filtering is the process of automatically identifying and removing unwanted or unsolicited emails (also known as spam) from a user's email inbox. The dataset used consists of examples of both spam and ham mails. Here the independent variable is the ‘Message’ and dependent is whether it is ‘spam’ or ‘ham’ that is ‘Category’. The input will be given as a message and the model thus predicts whether it is spam or ham mail.
