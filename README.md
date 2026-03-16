@@ -14,6 +14,7 @@ The dataset consists of labeled email messages with:
 
 •	Label column – spam (1) or ham (0)
  
+
 Preprocessing steps include:
 
 •	Replaced missing values with empty strings to ensure clean text input
@@ -22,13 +23,13 @@ Preprocessing steps include:
 
 •	Applied TF-IDF vectorization within a Scikit-learn pipeline, which:
 
-•	Lowercased text automatically
+  1)	Lowercased text automatically
 
-•	Tokenized email content
+  2)	Tokenized email content
 
-•	Removed punctuation
+  3)	Removed punctuation
 
-•	Converted text into numerical feature vectors
+  4)	Converted text into numerical feature vectors
 
 Used a Pipeline to ensure consistent preprocessing during both training and prediction (preventing data leakage).
 The final dataset is transformed into a structured matrix suitable for classification modeling.
